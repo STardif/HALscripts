@@ -1,8 +1,15 @@
 # HALscripts
-Several python scripts to extract data from HAL (the French open archive).
+Several python3 scripts to extract data from HAL (the French open archive).
 All scripts are released without any warranty !
 
 It uses the requests to haltools to get the data (essentially lists of publications).
+
+The necessary modules are :
+* numpy http://www.numpy.org/
+* matplotlib https://matplotlib.org/index.html
+* urllib
+* beautiful soup https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+* fuzzywuzzy https://github.com/seatgeek/fuzzywuzzy
 
 ## doublons_hal_check.py 
 This script will try to identify the doubles in a list of references 
