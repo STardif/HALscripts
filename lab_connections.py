@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Wed Feb 13 15:24:41 2019
@@ -8,18 +8,24 @@ Created on Wed Feb 13 15:24:41 2019
  
 The purpose of the script is to ...
 """
-"""
-labs = {'MEM' : 460264,
-        'LETI' : 40214,
-        'LITEN' : 40221}
 
-"""      
+## example 1
+#labs = {'MEM' : 460264,
+#        'LETI' : 40214,
+#        'LITEN' : 40221}
+        
+## example 2
+#labs = {'NRS' : 40368,
+#        'LSim' : 40364,
+#        'MDN' : 40365,
+#        'LEMMA' : 40362,
+#        'SGX' : 460267,
+#        'RM' : 40372}
+
+# example 3
 labs = {'NRS' : 40368,
         'LSim' : 40364,
-        'MDN' : 40365,
-        'LEMMA' : 40362,
-        'SGX' : 460267,
-        'RM' : 40372}
+        'LEMMA' : 40362,}
 
 annee_publideb = 2014
 annee_publifin = 2019
@@ -145,5 +151,5 @@ def plot_figure(labs,refs,
 refs = get_ref_list(labs)
 plot_figure(labs,refs,
                 radius_scale_factor = 0.03,
-                txt_offset_scale_factor = 0.2,
+                txt_offset_scale_factor = 0.0,
                 vertex_width_scale_factor = 1)
