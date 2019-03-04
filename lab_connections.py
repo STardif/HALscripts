@@ -6,7 +6,8 @@ Created on Wed Feb 13 15:24:41 2019
 @author: st242386 (samuel.tardif@cea.fr)
 @date: 2018-02-13
  
-The purpose of the script is to ...
+The purpose of the script is to plot the connections (= common references) 
+between two or more labs by comparing their respective scientific communications lists
 """
 
 ## example 1
