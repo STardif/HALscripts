@@ -122,12 +122,12 @@ def print_double(ref1, ref2):
     print('correlation: ', correl)
     print('DOI 1 : ', get_doi(ref1))
     print('url originale: ', (ref1.a)['href'])
-    print('url hal:', (ref1.a)['href'].replace('hal.univ-grenoble-alpes.fr',
-                                               'hal.archives-ouvertes.fr'))
+    print('url hal:', 'https://hal.archives-ouvertes.fr/'+\
+          (ref1.a)['href'].split('/')[-1])
     print('DOI 2: ', get_doi(ref2))
     print('url originale: ', (ref2.a)['href'])
-    print('url hal:', (ref2.a)['href'].replace('hal.univ-grenoble-alpes.fr',
-        'hal.archives-ouvertes.fr').replace('hal-cea','hal'))
+    print('url hal:', 'https://hal.archives-ouvertes.fr/'+\
+          (ref2.a)['href'].split('/')[-1])
     print('\n')
 	
 	
